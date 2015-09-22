@@ -2,6 +2,7 @@
   "name": "MyModel",
   "settings": {
   "mongodb": {
+    "collection": "things",
     "allowExtendedOperators": true
   },
   "base": "PersistedModel",
