@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "MyModel": {
+    "dataSource": "Hospital_Admissions_Age_Gender_2015",
+    "public": true
   }
 }

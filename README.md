@@ -22,3 +22,6 @@ slc loopback:datasource Hospital_Admissions_Age_Gender_2015
 
  Run the app
    $ node .
+
+
+   https://docs.strongloop.com/display/public/LB/MongoDB+connector
