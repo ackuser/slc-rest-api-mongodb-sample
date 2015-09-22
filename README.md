@@ -12,8 +12,8 @@ slc loopback
 
 slc loopback:datasource Hospital_Admissions_Age_Gender_2015
 
-//Create a model in your app
-   //$ slc loopback:model
+Create a model in your app
+   $ slc loopback:model
 
  Compose your API, run, deploy, profile, and monitor it with Arc
    $ slc arc

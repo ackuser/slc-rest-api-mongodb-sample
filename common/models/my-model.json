@@ -1,5 +1,9 @@
 {
   "name": "MyModel",
+  "settings": {
+  "mongodb": {
+    "allowExtendedOperators": true
+  },
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
