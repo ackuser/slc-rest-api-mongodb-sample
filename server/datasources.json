@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "Hospital_Admissions_Age_Gender_2015": {
+    "host": "localhost",
+    "database": "Hospital_Admissions_Age_Gender_2015",
+    "password": "",
+    "name": "Hospital_Admissions_Age_Gender_2015",
+    "connector": "mongodb",
+    "user": ""
   }
 }

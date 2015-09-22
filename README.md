@@ -18,5 +18,7 @@ slc loopback:datasource Hospital_Admissions_Age_Gender_2015
  Compose your API, run, deploy, profile, and monitor it with Arc
    $ slc arc
 
+(Need to create account)
+
  Run the app
    $ node .
