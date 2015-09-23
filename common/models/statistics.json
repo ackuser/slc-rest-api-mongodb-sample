@@ -1,18 +1,19 @@
 {
-  "name": "MyModel",
-  "settings": {
-  "mongodb": {
-    "collection": "things",
-    "allowExtendedOperators": true
-  },
+  "name": "Statistics",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
+  "settings": {
+    "mongodb": {
+      "collection": "things",
+      "allowExtendedOperators": true
+    }
+  },
   "properties": {},
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": []
 }

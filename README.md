@@ -23,5 +23,16 @@ Create a model in your app
  Run the app
    $ node .
 
-
+   https://docs.strongloop.com/display/APIS/Creating+a+new+API
    https://docs.strongloop.com/display/public/LB/MongoDB+connector
+   https://docs.strongloop.com/display/public/LB/Creating+models+from+unstructured+data
+
+
+   {
+     "Year": "",
+     "Classification": "",
+     "Metric_Secondary": "",
+     "Metric_Tertiary": "",
+     "id": "",
+     "Value": 0
+   }

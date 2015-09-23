@@ -32,8 +32,10 @@
     "dataSource": "db",
     "public": false
   },
-  "MyModel": {
+  "Statistics": {
     "dataSource": "Hospital_Admissions_Age_Gender_2015",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
