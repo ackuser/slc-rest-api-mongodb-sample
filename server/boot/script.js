@@ -1,33 +1,11 @@
 /*var ds = app.dataSources.db;
-console.log("HOLA");
-MyModel = ds.createModel('mymodel', {
+MyModel = ds.createModel('Statistics', {
     _id: { type: ds.ObjectID, id: true }
 });*/
 
 
 module.exports = function(app) {
-  var db = app.dataSources.db;
-
-  // Instance JSON document
-  /*var user = {
-    name: 'Joe',
-    age: 30,
-    birthday: new Date(),
-    vip: true,
-    address: {
-      street: '1 Main St',
-      city: 'San Jose',
-      state: 'CA',
-      zipcode: '95131',
-      country: 'US'
-    },
-    friends: ['John', 'Mary'],
-    emails: [
-      {label: 'work', id: 'x@sample.com'},
-      {label: 'home', id: 'x@home.com'}
-    ],
-    tags: []
-  };*/
+  var ds = app.dataSources.db;
 
   var statistics = {
   	Year : '2013/14',
@@ -44,7 +22,9 @@ module.exports = function(app) {
 
 
   // Create a model from the user instance
-  var Statistics = db.buildModelFromInstance('Statistics', statistics, {idInjection: true});
+  var Statistics = ds.buildModelFromInstance('Statistics', statistics, {idInjection: true});
+
+
 
   // Use the model for CRUD
   var obj = new Statistics(statistics);

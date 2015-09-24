@@ -37,5 +37,11 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Test": {
+    "dataSource": "Hospital_Admissions_Age_Gender_2015",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

@@ -2,16 +2,38 @@
   "name": "Statistics",
   "base": "PersistedModel",
   "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
   "settings": {
-    "mongodb": {
-      "collection": "things",
-      "allowExtendedOperators": true
+  "mongodb": {
+    "allowExtendedOperators": true,
+    "collection": "things"
     }
   },
-  "properties": {},
+  "properties": {
+    "ICD10_Description": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "ICD10_Code": {
+      "type": "string"
+    },
+    "Metric_Secondary": {
+      "type": "string"
+    },
+    "Metric_Tertiary": {
+      "type": "string"
+    },
+    "Metric_Quaternary": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "number"
+    },
+    "Metric_Primary": {
+      "type": "string"
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
