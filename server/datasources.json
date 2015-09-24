@@ -1,0 +1,20 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Hospital_Admissions_Age_Gender_2015": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "Hospital_Admissions_Age_Gender_2015",
+    "password": "",
+    "name": "Hospital_Admissions_Age_Gender_2015",
+    "server": {
+      "auto_reconnect": true,
+      "reconnectTries": 100,
+      "reconnectInterval": 1000
+    },
+    "connector": "mongodb",
+    "user": ""
+  }
+}
