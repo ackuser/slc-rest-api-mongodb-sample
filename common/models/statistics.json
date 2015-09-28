@@ -2,11 +2,8 @@
   "name": "Statistics",
   "base": "PersistedModel",
   "idInjection": true,
-  "settings": {
   "mongodb": {
-    "allowExtendedOperators": true,
     "collection": "things"
-    }
   },
   "properties": {
     "ICD10_Description": {

@@ -104,3 +104,6 @@ http://127.0.0.1:3000/explorer
 * https://docs.strongloop.com/display/public/LB/Creating+models+from+unstructured+data
 * http://khaidoan.wikidot.com/strongloop-model
 * https://strongloop.com/wp-content/uploads/2013/12/StrongLoop-Dec-5-LoopBack-Webinar.pdf
+* https://docs.strongloop.com/display/public/LB/Creating+models
+* https://docs.strongloop.com/display/LB1/Creating+models+by+instance+introspection
+* https://docs.strongloop.com/display/public/LB/Creating+a+database+schema+from+models

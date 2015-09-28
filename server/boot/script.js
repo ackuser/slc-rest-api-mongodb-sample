@@ -23,7 +23,7 @@ module.exports = function(app) {
 
   // Create a model from the user instance
   var Statistics = ds.buildModelFromInstance('Statistics', statistics, {idInjection: true});
-
+  Statistics.attachTo(ds);
 
 
   // Use the model for CRUD
